@@ -1,6 +1,6 @@
 # Recursion
 
-recursion is one of the main gateways into abstraction and true computer programming.  Because it is important, powerful, and radically different from what you have experienced before it's important to take some time to become comfortable analyzing and working with recursive code before trying to write your own recursive solutions.
+recursion is one of the main gateways into abstraction and true computer science.  Because it is important, powerful, and radically different from what you have experienced before it's important to take some time to become comfortable analyzing and working with recursive code before trying to write your own recursive solutions.
 
 ### Index
 * [recursion?](#recursion)
