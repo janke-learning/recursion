@@ -24,6 +24,12 @@ This won't be as hard to learn as you might have hears, but analogies and practi
 
 In this series of exercises you will learn to build your understanding of recursion from the ground up by practicing working from the purely mathematical definition of a recursive function while gradually integrating your practical understanding of how code can implement these abstract definitions.
 
+[TOP](#recursion)
+
+---
+
+## Recursive Definitions
+
 don't be afraid!  of all the formulas in computer science, recursive definitions are actually one of the simplest and most approachable.  let's take a look at one to understand the standard pieces of a recursive function:
 
 ```
