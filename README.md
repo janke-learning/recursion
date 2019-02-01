@@ -1,6 +1,10 @@
 # Recursion
 
-recursion is one of the main gateways into abstraction and true computer programming.  Because it is important, powerful, and radically different from what you have experienced before it's important to take some time to become comfortable analyzing and working with recursive code before trying to write your own recursive solutions.
+recursion is one of the main gateways into abstraction and true computer science.  Because it is important, powerful, and radically different from what you have experienced before it's important to take some time to become comfortable analyzing and working with recursive code before trying to write your own recursive solutions.
+
+At it's simplest definition, a recursive function is any function that calls itself.  
+
+But this doesn't get us very far in understanding how to practically write or work with recursive code.  Luckily, meaningful recursive code almost all follows the same general pattern.  These exercises will focus on understanding the basic structure of recursive solutions.  Later exercises will cover how to identify when recursion is an appropriate strategy and on how to design recursive solutions from the bottom up.  But first you must be confident logging, decomposing and debugging recursive functions. 
 
 ### Index
 * [recursion?](#recursion)
@@ -16,9 +20,7 @@ recursion is one of the main gateways into abstraction and true computer program
 
 ---
 
-## recursion?
-
-At it's simplest definition, a recursive function is any function that calls itself.  But this doesn't get us very far in understanding how to practically write or work with recursive code.  Luckily, meaningful recursive code almost all follows the same general pattern.  These exercises will focus on understanding the basic structure of recursive solutions.  Later exercises will cover how to identify when recursion is an appropriate strategy and on how to design recursive solutions from the bottom up.  But first you must be confident logging, decomposing and debugging recursive functions.  
+## recursion? 
 
 This won't be as hard to learn as you might have hears, but analogies and practical problems will get in the way of truly learning recursion. the trick with recursion is to turn off your 'intuition' & 'visualization' for a while while in order to build a solid understanding from scratch.
 
