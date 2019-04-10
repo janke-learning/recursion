@@ -140,12 +140,44 @@ Still looking for more? come up with random recursive definitions and see how th
 
 ## recursive starters
 
-each of these define what arguments you should use. be sure to follow what it recommends or you will spend a lot of time in endless loops
+each challenge defines it's set of arguments. be sure to follow the recommendations or you will spend a lot of time in endless loops
 
+1.
 ```
-for a > 0, b < 0
+for a > 0, b < 0. a & b are whole numbers
 r(a,b) === a + b        :: b > a
-r(a,b) === r(a-1, b+1)  :: !(b > a)
+r(a,b) === r(a-1, b+1)  :: else
+```
+
+2.
+```
+for a > 0, b > 0. a & b are whole numbers
+r(a,b) === a * b        :: b === 1 || a === 1
+r(a,b) === r(b, a-1)    :: else
+```
+
+3.
+```
+{a | a is a whole number}
+r(a) === (a - 2) / 3    :: (a - 2) % 3 === 0
+r(a) === r(a + 5)       :: else
+```
+
+4.
+```
+{ a | a is a string }
+r(a) === a                                    :: a.length === 1 || a.length === 0
+r(a) === r( a.slice(a.length/2, a.length) ) 
+         + r( a.slice(0, a.length/2) )        :: else
+```
+
+5.
+```
+{ a | a is a string }
+r(a,b) === a + b                              :: a.length === 1 || b.length == 1
+r(a,b) === r( a.slice(0, a.length/2) , b.slice(0, b.length/2) )  
+           + r( a.slice(a.length/2, a.length), b.slice(b.length/2, b.length) )  
+                                              :: else
 ```
 
 
@@ -260,4 +292,4 @@ function log_reports(_target, _cases) {
 ___
 ___
 ### <a href="http://janke-learning.org" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/50098409-22575780-021c-11e9-99e1-962787adaded.png" width="40" height="40"></img> Janke Learning</a>
-s
+
